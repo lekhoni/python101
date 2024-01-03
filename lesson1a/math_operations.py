@@ -1,24 +1,24 @@
 import math
 
-# TODO: Implement add
+# TODO: Implement add - return sum of parameters a and b
 def add(a, b):
     result = 0
-    #TODO: Implement here
+    #TODO: Implement here     
     return result 
 
-# TODO: Implement subtract
+# TODO: Implement subtract - return difference of parameters a and b
 def subtract(a, b):
     result = 0
     #TODO: Implement here
     return result 
 
-# TODO: Implement multiply
+# TODO: Implement multiply - return product of parameters a and b
 def multiply(a, b):
     result = 0
     #TODO: Implement here
     return result 
 
-# TODO: Implement divide
+# TODO: Implement divide - return quotient of parameters a and b
 def divide(a, b):
     # remember to handle division by zero in tests
     result = 0
@@ -26,34 +26,34 @@ def divide(a, b):
     return result 
 
 
-# TODO: Implement square
+# TODO: Implement square - return square of parameter n
 def square(n):
     result = 0
     #TODO: Implement here
     return result 
 
 
-# TODO: Implement cube
+# TODO: Implement cube - return cube of parameter n
 def cube(n):
     result = 0
     #TODO: Implement here
     return result 
 
 
-# TODO: Implement modulus
+# TODO: Implement modulus - return remainder of division of a by b
 def modulus(a, b):
     result = 0
     #TODO: Implement here
     return result 
 
 
-# TODO: Implement square root
+# TODO: Implement square root function
 def sqrt(n):
     result = 0
     #TODO: Implement here
     return result 
 
-# TODO: Implement sine function
+# TODO: Implement sine function using math library
 def sin(x):
     result = 0
     #TODO: Implement here
