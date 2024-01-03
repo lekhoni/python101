@@ -2,8 +2,8 @@ import unittest
 import os
 from file_operations import *
 
-class TestFileOperations(unittest.TestCase):
 
+class TestFileOperations(unittest.TestCase):
     def setUp(self):
         # Setup a text file to be used by the tests
         self.test_file = "testfile.txt"
@@ -33,5 +33,5 @@ class TestFileOperations(unittest.TestCase):
         self.assertFalse(file_exists("nonexistentfile.txt"))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

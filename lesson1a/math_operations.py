@@ -14,8 +14,7 @@ def multiply(a, b):
 
 # TODO: Implement divide - return quotient of parameters a and b
 def divide(a, b):
-    # remember to handle division by zero in tests
-    return a / b if b != 0 else 0
+    return a / b
 
 
 # TODO: Implement square - return square of parameter n
