@@ -2,20 +2,24 @@ import os
 
 # TODO: Implement read_file
 def read_file(filename):
-    with open(filename, 'r') as file:
-        return file.read()
+    # TODO: student code here
+
+    # END student code    
 
 # TODO: Implement write_file
 def write_file(filename, content):
-    with open(filename, 'w') as file:
-        file.write(content)
+    # TODO: student code here
+
+    # END student code    
 
 # TODO: Implement append_to_file
 def append_to_file(filename, content):
-    with open(filename, 'a') as file:
-        file.write(content)
+    # TODO: student code here
+
+    # END student code    
 
 # TODO: Implement file_exists
 def file_exists(filename):
-    return os.path.exists(filename)
+    # TODO: student code here
 
+    # END student code    

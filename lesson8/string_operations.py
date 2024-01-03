@@ -1,29 +1,59 @@
 # TODO: Implement concatenate
 def concatenate(a, b):
-    return a + b
+    res = ""
+    # TODO: student code here
+
+    # END student code    
+    return res
 
 # TODO: Implement find_substring
 def find_substring(string, substring):
-    return substring in string
+    res = False
+    # TODO: student code here
+
+    # END student code    
+    return res
 
 # TODO: Implement to_upper
 def to_upper(string):
-    return string.upper()
+    res = ""
+    # TODO: student code here
+
+    # END student code    
+    return res
+
 
 # TODO: Implement to_lower
 def to_lower(string):
-    return string.lower()
+    res = ""
+    # TODO: student code here
+
+    # END student code    
+    return res
 
 # TODO: Implement replace_substring
 def replace_substring(string, old, new):
-    return string.replace(old, new)
+    res = ""
+    # TODO: student code here
+
+    # END student code    
+    return res
 
 # TODO: Implement reverse_string
 def reverse_string(string):
-    return string[::-1]
+    res = ""
+    # TODO: student code here
+
+    # END student code    
+    return res
 
 # TODO: Implement string_length
 def string_length(string):
-    return len(string)
+    res = 0
+    # TODO: student code here
+
+    # END student code    
+    return res
+
 
 

@@ -36,8 +36,6 @@ class TestMathOperations(unittest.TestCase):
         self.assertEqual(sqrt(36), 6)
         self.assertAlmostEqual(sqrt(2), math.sqrt(2))
 
-    # Continue adding more tests for other operations...
-
     # Tests for trigonometric functions
     def test_sin(self):
         self.assertAlmostEqual(sin(math.pi/2), 1)
@@ -51,8 +49,6 @@ class TestMathOperations(unittest.TestCase):
     def test_log(self):
         self.assertAlmostEqual(log(1), 0)
         self.assertAlmostEqual(log(math.e), 1)
-
-    # ... add more tests up to 20 or more for various operations ...
 
 if __name__ == '__main__':
     unittest.main()
