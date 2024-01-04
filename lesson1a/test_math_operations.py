@@ -1,6 +1,6 @@
 import unittest
 import math
-from math_operations import *
+from lesson1a.math_operations import *
 
 class TestMathOperations(unittest.TestCase):
 

@@ -1,6 +1,6 @@
 import unittest
 import os
-from file_operations import *
+from lesson9.file_operations import *
 
 
 class TestFileOperations(unittest.TestCase):

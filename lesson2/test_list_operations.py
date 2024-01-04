@@ -1,5 +1,5 @@
 import unittest
-from list_operations import add_element, remove_element, get_element, modify_element
+from lesson2.list_operations import add_element, remove_element, get_element, modify_element
 
 class TestListOperations(unittest.TestCase):
     def setUp(self):

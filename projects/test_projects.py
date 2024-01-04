@@ -1,7 +1,7 @@
 import io
 import sys
 import unittest
-from projects import *
+from projects.projects import *
 
 
 class TestHello(unittest.TestCase):
@@ -707,7 +707,3 @@ class TestCaesarCipher(unittest.TestCase):
         encrypted_message = caesar_encrypt(message, shift)
         decrypted_message = caesar_decrypt(encrypted_message, shift)
         self.assertEqual(decrypted_message, message)
-
-
-if __name__ == "__main__":
-    unittest.main()

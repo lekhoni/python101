@@ -1,5 +1,5 @@
 import unittest
-from string_operations import *
+from lesson8.string_operations import *
 
 class TestStringOperations(unittest.TestCase):
 

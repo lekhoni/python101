@@ -1,5 +1,5 @@
 import unittest
-from conditional_checks import is_even, greater_than_ten, string_check, compound_condition
+from lesson3.conditional_checks import is_even, greater_than_ten, string_check, compound_condition
 
 class TestConditionalChecks(unittest.TestCase):
 
