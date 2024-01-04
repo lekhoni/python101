@@ -362,7 +362,7 @@ def is_valid_email(email):
 # Write a program that generates and prints the first n rows of Pascal's Triangle, where n is given as input.
 def generate_pascals_triangle(n):
     triangle = []
-
+    row = []
     for i in range(n):
         row = [1] if i == 0 else [1] + [row[j] + row[j + 1] for j in range(i - 1)] + [1]
         triangle.append(row)

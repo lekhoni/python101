@@ -1,7 +1,7 @@
 import io
 import sys
 import unittest
-from projects.projects import *
+from projects.homeworks import *
 
 
 class TestHello(unittest.TestCase):
