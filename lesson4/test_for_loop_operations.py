@@ -1,7 +1,10 @@
 import sys
 import io
 import unittest
-from for_loop_operations import *
+try:
+    from for_loop_operations import *
+except ModuleNotFoundError:
+    from lesson4.for_loop_operations import *
 
 class TestLoopOperations(unittest.TestCase):
     def setUp(self):

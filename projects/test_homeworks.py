@@ -1,8 +1,11 @@
 import io
 import sys
 import unittest
-from projects.homeworks import *
-
+try:
+    from homeworks import *    
+except ModuleNotFoundError:
+    from projects.homeworks import *
+    
 
 class TestHello(unittest.TestCase):
     def setUp(self):
